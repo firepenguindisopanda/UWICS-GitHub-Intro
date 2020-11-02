@@ -8,8 +8,9 @@ def askQuestion(name):
     return f'{message}, {question}\n'
 
 
+reply = input("What is your name?:\n")
 
-print("hello world!")
+response = askQuestion(reply)
 
-print("Hello Nicholas!")
+print(response)
 
